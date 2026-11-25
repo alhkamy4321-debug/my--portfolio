@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="موقع رهف ياسر الشخصي - نبذة عني ومهاراتي وطرق التواصل معي">
+  <title>رهف ياسر | موقعي الشخصي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- الشريط العلوي -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">رهف<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">نبذة عني</a></li>
+        <li><a href="#skills">مهاراتي</a></li>
+        <li><a href="#contact">تواصل معي</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    </nav>
+  </header>
+
+  <!-- قسم الرئيسية -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="greeting">مرحبًا، أنا</p>
+        <h1>رهف <span class="highlight">ياسر</span></h1>
+        <p class="hero-role">مصمم ومطور مواقع الويب</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">اعرف المزيد</a>
+          <a href="#contact" class="btn btn-outline">تواصل معي</a>
+        </div>
+      </div>
+      <div class="hero-shape" aria-hidden="true">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="avatar">ر</div>
+      </div>
+    </div>
+    <div class="scroll-down">↓</div>
+  </section>
+
+  <!-- قسم نبذة عني -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>نبذة عني</h2>
+        <span class="underline"></span>
+      </div>
+      <div class="about-box">
+        <p>أنا شغوف بعالم التكنولوجيا والتصميم، وأعمل على تحويل الأفكار إلى تجارب رقمية جميلة وعملية.</p>
+        <p>أستمتع بتعلم تقنيات جديدة كل يوم، وأحرص على كتابة أكواد نظيفة وواجهات سهلة الاستخدام تخدم المستخدم أولًا وأخيرًا.</p>
+        <p>هدفي هو بناء مشاريع تجمع بين الإبداع والدقة، وتترك أثرًا إيجابيًا لدى كل من يستخدمها.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المهارات -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2>مهاراتي</h2>
+        <span class="underline"></span>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>تطوير الويب</h3>
+          <p>بناء مواقع متجاوبة باستخدام HTML و CSS و JavaScript.</p>
+          <div class="progress"><span style="width: 90%"></span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>تصميم واجهات المستخدم</h3>
+          <p>تصميم واجهات جذابة وسهلة الاستخدام باستخدام Figma.</p>
+          <div class="progress"><span style="width: 85%"></span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>React</h3>
+          <p>إنشاء تطبيقات تفاعلية بمكونات قابلة لإعادة الاستخدام.</p>
+          <div class="progress"><span style="width: 75%"></span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>التصميم المتجاوب</h3>
+          <p>ضبط المواقع لتعمل بسلاسة على كل الأجهزة والشاشات.</p>
+          <div class="progress"><span style="width: 88%"></span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h3>تحسين محركات البحث</h3>
+          <p>تحسين أداء المواقع وظهورها في نتائج البحث.</p>
+          <div class="progress"><span style="width: 70%"></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم التواصل -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="section-title light">
+        <h2>تواصل معي</h2>
+        <span class="underline"></span>
+      </div>
+      <p class="contact-desc">لديك فكرة أو مشروع تود مناقشته؟ أرسل لي رسالة وسأرد عليك في أقرب وقت.</p>
+      <a href="mailto:rahaf.yasser@example.com" class="email-link">📧 rahaf.yasser@example.com</a>
+      <div class="social-links">
+        <a href="#" aria-label="تويتر">𝕏</a>
+        <a href="#" aria-label="لينكدإن">in</a>
+        <a href="#" aria-label="جيت هاب">GH</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="site-footer">
+    <p>© 2026 جميع الحقوق محفوظة | صُنع بـ ♦ بواسطة رهف ياسر</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
